@@ -1,0 +1,19 @@
+airport
+beach
+bridge
+commercial
+desert
+farmland
+football field
+forest
+industrial
+meadow
+mountain
+park
+parking
+pond
+port
+railway station
+residential
+river
+viaduct
