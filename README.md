@@ -218,4 +218,5 @@ Feel free to open an issue or pull request if you have any questions or suggesti
 ## Coming Soon ⏳
 
 - ArXiV preprint
-- Exploration of Text-prompt variability on Zero-Shot Scene Classification
+- Text-prompt variability for Zero-Shot Scene Classification
+- Few-shot RS-TransCLIP for human-in-the-loop scenarios
