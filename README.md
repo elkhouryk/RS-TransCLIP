@@ -70,6 +70,16 @@ You are ready to start! 🎉
 <br><br>
 ## Datasets 🗂️
 
+Download the evaluation datasets:
+
+```bash
+python3 run_datasets.py --<dataset_name>
+
+# 10 Remote Sensing Scene Classificaiton dataset are available for evaluation: 
+# AID, EuroSAT, MLRSNet, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB128, RSICB256, WHURS19  
+```
+<br>
+
 Dataset directory structure should be as follows:
 ```
 $datasets/
@@ -83,7 +93,7 @@ $datasets/
 
 <ins>Notes:</ins>
 
-* Please follow [datasets.md](github_data/datasets.md) for detailed dataset setup and download links. $\color{#f00}{\textsf{TO BE MODIFIED}}$
+* The class_changes.txt file inserts a space between combined class names. For example, the class name "railwaystation" becomes "railway station." This change is applied consistently across all datasets.
 * The WHURS19 dataset is already uploaded to the repository for reference.
 
 ---
@@ -207,5 +217,5 @@ Feel free to open an issue or pull request if you have any questions or suggesti
 <br><br>
 ## Coming Soon ⏳
 
-- [datasets.md](github_data/datasets.md)
 - ArXiV preprint
+- Exploration of Text-prompt variability on Zero-Shot Scene Classification
