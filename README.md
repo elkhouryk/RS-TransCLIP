@@ -166,7 +166,7 @@ python3 run_averageprompt.py
 
 ### Running Transductive Zero-Shot Classification ⚙️🚀
 
-To run Transductive classification using RS-TransCLIP:
+To run Transductive zero-shot classification using RS-TransCLIP:
 
 ```bash
 python3 run_TransCLIP.py
