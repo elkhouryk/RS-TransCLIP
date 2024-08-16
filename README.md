@@ -73,10 +73,10 @@ You are ready to start! 🎉
 Download the evaluation datasets:
 
 ```bash
-python3 run_datasets.py --<dataset_name>
-
 # 10 Remote Sensing Scene Classificaiton dataset are available for evaluation: 
-# AID, EuroSAT, MLRSNet, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB128, RSICB256, WHURS19  
+# AID, EuroSAT, MLRSNet, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB128, RSICB256, WHURS19 
+
+python3 run_datasets.py --<dataset_name>
 ```
 <br>
 
@@ -106,7 +106,7 @@ Running RS-TransCLIP consist of three major steps:
 - [Generating the Average Text Embedding](#generating-the-average-text-embedding-️)
 - [Running Transductive Zero-Shot Classification](#running-transductive-zero-shot-classification-️)
 
-We consider ten scene classification datasets (AID, EuroSAT, MLRSNet, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB128, RSICB256, WHURS19), four VLM models (CLIP, GeoRSCLIP, RemoteCLIP, SkyCLIP50) and four model architectures (RN50, ViT-B-32, ViT-L-14, ViT-H-14) for our experiments.
+We consider 10 scene classification datasets (AID, EuroSAT, MLRSNet, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB128, RSICB256, WHURS19), 4 VLM models (CLIP, GeoRSCLIP, RemoteCLIP, SkyCLIP50) and 4 model architectures (RN50, ViT-B-32, ViT-L-14, ViT-H-14) for our experiments.
 
 ## 
 
