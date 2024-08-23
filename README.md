@@ -1,5 +1,5 @@
 # RS-TransCLIP 🌍🛰️
-Welcome to the GitHub repository for [*Enhancing Remote Sensing Vision-Language Models for Zero-Shot Scene Classification*](https://arxiv.org/). $\color{#f00}{\textsf{TO BE MODIFIED}}$
+Welcome to the GitHub repository for [*Enhancing Remote Sensing Vision-Language Models for Zero-Shot Scene Classification*](https://arxiv.org/).
 
 <ins>Authors:</ins>
 
