@@ -79,7 +79,6 @@ Download the evaluation datasets:
 # 10 Remote Sensing Scene Classificaiton dataset are available for evaluation: 
 # AID, EuroSAT, MLRSNet, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB128, RSICB256, WHURS19
 # The formatted MLRSNet dataset will be available soon.
---dataset_name
 python3 run_dataset_download.py --dataset_name <dataset_name>
 ```
 <br>
