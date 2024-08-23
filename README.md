@@ -51,10 +51,6 @@ Install Pytorch:
 pip3 install torch==2.2.2 torchaudio==2.2.2 torchvision==0.17.2
 ```
 
-Install the remaining Python packages requirements:
-```bash
-pip3 install -r requirements.txt
-```
 
 Clone Github and move to the appropriate directory:
 
@@ -62,6 +58,13 @@ Clone Github and move to the appropriate directory:
 git clone https://github.com/elkhouryk/RS-TransCLIP
 cd RS-TransCLIP
 ```
+
+Install the remaining Python packages requirements:
+```bash
+pip3 install -r requirements.txt
+```
+
+
 <br>
 
 You are ready to start! 🎉
