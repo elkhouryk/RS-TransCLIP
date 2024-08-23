@@ -3,8 +3,10 @@
 
 #%%
 import argparse
+import libarchive
 import os
 from datasets import load_dataset
+import shutil 
 import subprocess
 from tqdm import tqdm
 from torch.utils.data import DataLoader
@@ -66,7 +68,7 @@ def create_and_sort_txt(classes, txt_dir):
 
 #%%
 def process_data(dataset_name):
-    datasets_dir = './datasets'
+    datasets_dir = '/Users/tgodelaine/Desktop/ICASSP/data' #'./datasets'
     if dataset_name == 'AID':
         load_path = "jonathan-roberts1/Million-AID"
         classes = {
@@ -148,7 +150,7 @@ def process_data(dataset_name):
             print("txt file created")
             
     elif dataset_name == 'MLRSNet':
-        dataset_dir_init = os.path.join(datasets_dir, 'MLRSNet_Dataset')
+        dataset_dir_init = os.path.join(datasets_dir, 'MLRSNet_Dataset/images')
         dataset_dir = os.path.join(datasets_dir, dataset_name, 'images')
         
         if os.path.exists(dataset_dir):
@@ -244,6 +246,9 @@ def process_data(dataset_name):
             create_and_sort_txt(classes, output_dir_txt)
             print("txt file created")  
         
+            shutil.rmtree(dataset_dir_init)
+            print(f"Directory {dataset_dir_init} has been removed")
+            
     elif dataset_name == 'OPTIMAL31':
         load_path = 'jonathan-roberts1/Optimal-31'
         classes = {'0': 'airplane',
@@ -529,6 +534,9 @@ def process_data(dataset_name):
             output_dir_txt = os.path.join(datasets_dir, dataset_name) 
             create_and_sort_txt(classes, output_dir_txt)
             print("txt file created")
+            
+            shutil.rmtree(dataset_dir_init)
+            print(f"Directory {dataset_dir_init} has been removed")
         
     elif dataset_name == 'RSICB256':
         load_path = "jonathan-roberts1/RSI-CB256"
@@ -637,6 +645,9 @@ def process_data(dataset_name):
             output_dir_txt = os.path.join(datasets_dir, dataset_name)
             create_and_sort_txt(classes, output_dir_txt)
             print("txt file created")
+            
+            shutil.rmtree(dataset_dir_init)
+            print(f"Directory {dataset_dir_init} has been removed")
         
     else: 
         print("ERROR: Wrong dataset name")
@@ -649,8 +660,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     process_data(args.dataset_name)
-
-    
-
-    
 
