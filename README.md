@@ -82,8 +82,8 @@ You are ready to start! 🎉
 python3 run_dataset_download.py --dataset_name <dataset_name> 
 
 # The automatically downloadable and formatted MLRSNet and RSICB128 datasets will be available soon.
-# You can format them manually to follow the dataset directory structure listed below
-# and use them for evaluation. Manual Kaggle download links are available below.
+# You can format them manually to follow the dataset directory structure listed below.
+# Manual Kaggle download links are available below.
 
 ```
 <br>
