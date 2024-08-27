@@ -92,9 +92,8 @@ python3 run_dataset_download.py --dataset_name <dataset_name>
 <ins>Notes:</ins>
 
 * The class_changes.txt file inserts a space between combined class names. For example, the class name "railwaystation" becomes "railway station." This change is applied consistently across all datasets.
-* The WHURS19 dataset is already uploaded to the repository for reference.
-* The automatically downloadable and formatted MLRSNet and RSICB128 datasets will be available soon. You can format them manually to follow the dataset directory structure listed below and use them for evaluation.
-* Manual Kaggle download links: [RSICB128](https://www.kaggle.com/datasets/phananhvu/rsi-cb-128-remote-sensing-aerial-satellite-image) | [MLRSNet](https://www.kaggle.com/datasets/fes2255/mlrsnet)).
+* The WHURS19 dataset is already uploaded to the repository for reference
+* The automatically downloadable and formatted MLRSNet and RSICB128 datasets will be available soon. You can format them manually to follow the dataset directory structure listed below and use them for evaluation; Manual Kaggle download links: [RSICB128](https://www.kaggle.com/datasets/phananhvu/rsi-cb-128-remote-sensing-aerial-satellite-image) | [MLRSNet](https://www.kaggle.com/datasets/fes2255/mlrsnet).
 
 
 Dataset directory structure should be as follows:
