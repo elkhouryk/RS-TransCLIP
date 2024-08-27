@@ -37,7 +37,7 @@ We introduce RS-TransCLIP, a transductive approach inspired from [TransCLIP](htt
 
 <br>
 
-Create a virtual enviroment and activate it:
+Create a virtual environment and activate it:
 
 ```bash
 # Example using the virtualenv package on linux
@@ -51,7 +51,7 @@ Install Pytorch:
 pip3 install torch==2.2.2 torchaudio==2.2.2 torchvision==0.17.2
 ```
 
-Clone Github and move to the appropriate directory:
+Clone GitHub and move to the appropriate directory:
 
 ```bash
 git clone https://github.com/elkhouryk/RS-TransCLIP
@@ -71,21 +71,29 @@ You are ready to start! 🎉
 <br><br>
 ## Datasets 🗂️
 
-10 Remote Sensing Scene Classificaiton dataset are already available for evaluation: 
+10 Remote Sensing Scene Classification datasets are already available for evaluation: 
 
 ```bash
 # The WHURS19 dataset is already uploaded to the repository for reference and can be used directly.
 
-# The following 7 dataset (AID, EuroSAT, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB256) will be
+# The following 7 datasets (AID, EuroSAT, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB256) will be
 # automatically downloaded and formatted from Hugging Face using the run_dataset_download.py script.
 
-# The automatically doanloadable and formatted MLRSNet and RSICB128 dataset will be available soon.
-# Refer to Notes section below for download links. You format them manually to follow the dataset directory
-# structure listed below and use it for evaluation)
+# The automatically downloadable and formatted MLRSNet and RSICB128 dataset will be available soon.
 
 python3 run_dataset_download.py --dataset_name <dataset_name> 
 ```
 <br>
+
+
+
+<ins>Notes:</ins>
+
+* The class_changes.txt file inserts a space between combined class names. For example, the class name "railwaystation" becomes "railway station." This change is applied consistently across all datasets.
+* The WHURS19 dataset is already uploaded to the repository for reference.
+* The automatically downloadable and formatted MLRSNet and RSICB128 dataset will be available soon. You can format them manually to follow the dataset directory structure listed below and use it for evaluation).
+* Manual Kaggle download links: [RSICB128](https://www.kaggle.com/datasets/phananhvu/rsi-cb-128-remote-sensing-aerial-satellite-image) | [MLRSNet](https://www.kaggle.com/datasets/fes2255/mlrsnet)).
+
 
 Dataset directory structure should be as follows:
 ```
@@ -97,13 +105,6 @@ $datasets/
     └── <classname>_<id>.jpg
     └── ...
 ```
-
-<ins>Notes:</ins>
-
-* The class_changes.txt file inserts a space between combined class names. For example, the class name "railwaystation" becomes "railway station." This change is applied consistently across all datasets.
-* The WHURS19 dataset is already uploaded to the repository for reference.
-* The automatically doanloadable and formatted MLRSNet and RSICB128 dataset will be available soon.
-* Manual Kaggle downlaod links: [RSICB128](https://www.kaggle.com/datasets/phananhvu/rsi-cb-128-remote-sensing-aerial-satellite-image) | [MLRSNet](https://www.kaggle.com/datasets/fes2255/mlrsnet)).
   
 ---
 <br><br>
@@ -150,8 +151,8 @@ $results/
 
 <ins>Notes:</ins>
 
-* Text embeddings will generate 106 individual text embeddings for each Vision-Language Models/dataset combination, the exhaustive lsit of all text prompts can be foudn in run_featuregeneration.py.
-* When generating Image embeddings, the run_featuregeneration.py script will also generate the ground truth labels and store them in "classes.pt". These labels will be used for evalaution.
+* Text embeddings will generate 106 individual text embeddings for each VLM/dataset combination, the exhaustive list of all text prompts can be found in run_featuregeneration.py.
+* When generating Image embeddings, the run_featuregeneration.py script will also generate the ground truth labels and store them in "classes.pt". These labels will be used for evaluation.
 * Please refer to run_featuregeneration.py to control all the respective arguments.
 * The embeddings for the WHURS19 dataset are already uploaded to the repository for reference.
 
@@ -184,7 +185,7 @@ python3 run_TransCLIP.py
 <ins>Notes:</ins>
 
 * The run_TransCLIP.py script will use the Image embeddings "images.pt", the Average Text embedding "texts_averageprompt.pt" and the class ground truth labels "classes.pt" to run Transductive zero-shot classification using RS-TransCLIP.
-* The run_TransCLIP.py script wil also generate the Inductive zero-shot classification for performance comparison.
+* The run_TransCLIP.py script will also generate the Inductive zero-shot classification for performance comparison.
 * Both Inductive and Transductive results will be stored in "results/results_averageprompt.csv".
 * The results for the WHURS19 dataset are already uploaded to the repository for reference.
 
@@ -226,7 +227,7 @@ Feel free to open an issue or pull request if you have any questions or suggesti
 <br><br>
 ## Coming Soon ⏳
 
-- ArXiV preprint
+- arXiv preprint
 - Formatted MLRSNet dataset will be available soon
 - Text-prompt variability for Zero-Shot Scene Classification
 - Few-shot RS-TransCLIP for human-in-the-loop scenarios
