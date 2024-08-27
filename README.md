@@ -74,13 +74,14 @@ You are ready to start! 🎉
 10 Remote Sensing Scene Classificaiton dataset are already available for evaluation: 
 
 ```bash
-# ** The WHURS19 dataset is already uploaded to the repository for reference
-# and can be used directly.
-# ** The following 7 dataset (AID, EuroSAT, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB256)
-# will be automatically downloaded and formatted from Hugging Face using the run_dataset_download.py script.
-# ** The automatically doanloadable and formatted MLRSNet and RSICB128 dataset will be available soon.
+# The WHURS19 dataset is already uploaded to the repository for reference and can be used directly.
+
+# The following 7 dataset (AID, EuroSAT, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB256) will be
+# automatically downloaded and formatted from Hugging Face using the run_dataset_download.py script.
+
+# The automatically doanloadable and formatted MLRSNet and RSICB128 dataset will be available soon.
 # Refer to Notes section below for download links. You format them manually to follow the dataset directory
-# structure listed below for them to be used for evaluation)
+# structure listed below and use it for evaluation)
 
 python3 run_dataset_download.py --dataset_name <dataset_name> 
 ```
