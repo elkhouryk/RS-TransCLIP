@@ -192,7 +192,7 @@ python3 run_TransCLIP.py
 
 
 <p align="center">
-  <img src="github_data/results.png" alt="RS-TransCLIP results table" width="500" height="450">
+  <img src="github_data/results.png" alt="RS-TransCLIP results table" width="935" height="644">
   <br>
   <em>Table 1: Top-1 accuracy for zero-shot scene classification without (white) and with (blue) RS-TransCLIP on 10 RS datasets.</em>
 </p>
