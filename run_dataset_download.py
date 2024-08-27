@@ -3,7 +3,6 @@
 
 #%%
 import argparse
-import libarchive
 import os
 from datasets import load_dataset
 import shutil 
