@@ -68,7 +68,7 @@ def create_and_sort_txt(classes, txt_dir):
 
 #%%
 def process_data(dataset_name):
-    datasets_dir = '/Users/tgodelaine/Desktop/ICASSP/data' #'./datasets'
+    datasets_dir = './datasets'
     if dataset_name == 'AID':
         load_path = "jonathan-roberts1/Million-AID"
         classes = {
