@@ -9,3 +9,4 @@ numpy
 pandas
 regex
 datasets
+kaggle
