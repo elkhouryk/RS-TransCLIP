@@ -79,7 +79,7 @@ You are ready to start! 🎉
 # The following 7 datasets (AID, EuroSAT, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB256) will be
 # automatically downloaded and formatted from Hugging Face using the run_dataset_download.py script.
 
-# The automatically downloadable and formatted MLRSNet and RSICB128 dataset will be available soon.
+# The automatically downloadable and formatted MLRSNet and RSICB128 datasets will be available soon.
 
 python3 run_dataset_download.py --dataset_name <dataset_name> 
 ```
@@ -91,7 +91,7 @@ python3 run_dataset_download.py --dataset_name <dataset_name>
 
 * The class_changes.txt file inserts a space between combined class names. For example, the class name "railwaystation" becomes "railway station." This change is applied consistently across all datasets.
 * The WHURS19 dataset is already uploaded to the repository for reference.
-* The automatically downloadable and formatted MLRSNet and RSICB128 dataset will be available soon. You can format them manually to follow the dataset directory structure listed below and use it for evaluation).
+* The automatically downloadable and formatted MLRSNet and RSICB128 datasets will be available soon. You can format them manually to follow the dataset directory structure listed below and use it for evaluation).
 * Manual Kaggle download links: [RSICB128](https://www.kaggle.com/datasets/phananhvu/rsi-cb-128-remote-sensing-aerial-satellite-image) | [MLRSNet](https://www.kaggle.com/datasets/fes2255/mlrsnet)).
 
 
@@ -189,6 +189,14 @@ python3 run_TransCLIP.py
 * Both Inductive and Transductive results will be stored in "results/results_averageprompt.csv".
 * The results for the WHURS19 dataset are already uploaded to the repository for reference.
 
+
+
+<p align="center">
+  <img src="github_data/results.png" alt="RS-TransCLIP results table" width="500" height="450">
+  <br>
+  <em>Table 1: Top-1 accuracy for zero-shot scene classification without (white) and with (blue) RS-TransCLIP on 10 RS datasets.</em>
+</p>
+
 ---
 <br><br>
 ## Citations 📚
@@ -228,6 +236,6 @@ Feel free to open an issue or pull request if you have any questions or suggesti
 ## Coming Soon ⏳
 
 - arXiv preprint
-- Formatted MLRSNet dataset will be available soon
+- Automatically downloadable and formatted MLRSNet and RSICB128 datasets
 - Text-prompt variability for Zero-Shot Scene Classification
 - Few-shot RS-TransCLIP for human-in-the-loop scenarios
