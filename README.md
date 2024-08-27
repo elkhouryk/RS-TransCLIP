@@ -56,7 +56,7 @@ Clone Github and move to the appropriate directory:
 
 ```bash
 git clone https://github.com/elkhouryk/RS-TransCLIP
-cd RS-TransCLIP-main
+cd RS-TransCLIP
 ```
 
 Install the remaining Python packages requirements:
