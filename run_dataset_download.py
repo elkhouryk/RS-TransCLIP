@@ -22,7 +22,7 @@ def save_images_from_dataloader(load_path, output_dir, classes, label_counters={
     
     dataloader = DataLoader(ds, batch_size=1, shuffle=True)
     
-    for batch_idx, batch in enumerate(tqdm(dataloader, desc="Processing images")):
+    for batch_idx, batch in enumerate(tqdm(dataloader, desc="Processing dataset")):
         images = batch['image']
         labels = batch[label_key]
         for i in range(images.size(0)):
@@ -129,7 +129,7 @@ def process_data(dataset_name):
             '6': 'permanent crop',
             '7': 'residential buildings',
             '8': 'river',
-            '9': 'seaLake'
+            '9': 'sealake'
             }
         output_dir_img = os.path.join(datasets_dir, dataset_name, 'images')
         if os.path.exists(output_dir_img):
@@ -417,7 +417,7 @@ def process_data(dataset_name):
 #%%
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Parser for the specified arguments')
-    parser.add_argument('--dataset_name', type=str, choices=['AID', 'EuroSat', 'MLRSNet', 'OPTIMAL31', 'PatternNet', 'RESISC45', 'RSC11', 'RSICB128', 'RSICB256', 'WHURS19'], help='Name of the dataset')
+    parser.add_argument('--dataset_name', type=str, choices=['AID', 'EuroSAT', 'OPTIMAL31', 'PatternNet', 'RESISC45', 'RSC11', 'RSICB256'], help='Name of the dataset')
     args = parser.parse_args()
     
     process_data(args.dataset_name)
