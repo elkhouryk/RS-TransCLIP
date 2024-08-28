@@ -12,7 +12,7 @@ Welcome to the GitHub repository for [*Enhancing Remote Sensing Vision-Language 
 We introduce RS-TransCLIP, a transductive approach inspired from [TransCLIP](https://github.com/MaxZanella/transduction-for-vlms), that enhances Remote Sensing Vison-Language Models <ins>without requiring any labels</ins>, only incurring a negligible computational cost to the overall inference time.
 
 <p align="center">
-  <img src="github_data/results_barplot.png" alt="RS-TransCLIP results" width="500" height="450">
+  <img src="github_data/results_barplot.png" alt="RS-TransCLIP results" style="width: 80%; max-width: 500px; height: auto;">
   <br>
   <em>Figure 1: Top-1 accuracy of RS-TransCLIP, on ViT-L/14 Remote Sensing Vision-Language Models, for zero-shot scene classification across 10 benchmark datasets.</em>
 </p>
@@ -194,10 +194,12 @@ python3 run_TransCLIP.py
 
 
 <p align="center">
-  <img src="github_data/results.png" alt="RS-TransCLIP results table" width="935" height="644">
+  <img src="github_data/results.png" alt="RS-TransCLIP results table" style="width: 100%; max-width: 935px; height: auto;">
   <br>
   <em>Table 1: Top-1 accuracy for zero-shot scene classification without (white) and with (blue) RS-TransCLIP on 10 RS datasets.</em>
 </p>
+
+
 
 ---
 <br><br>
