@@ -81,13 +81,6 @@ You are ready to start! 🎉
 # <dataset_name> can take the following values: AID, EuroSAT, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB256
 python3 run_dataset_download.py --dataset_name <dataset_name> 
 ```
-  
-* You must download the MLRSNet and RSICB128 datasets manually from Kaggle and place them in /datasets/ directory. Download links: [RSICB128](https://www.kaggle.com/datasets/noamaanabdulazeem/myfile) | [MLRSNet](https://www.kaggle.com/datasets/fes2255/mlrsnet). You can format them manually to follow the dataset directory structure listed below and use them for evaluation or u can use the _run_dataset_formatting.py_ script.
-
-```bash
-# <dataset_name> can take the following values: MLRSNet, RSICB128
-python3 run_dataset_formatting.py --dataset_name <dataset_name> 
-```
 
 Dataset directory structure should be as follows:
 ```
@@ -100,6 +93,23 @@ $datasets/
     └── ...
 ```
 
+  
+* You must download the MLRSNet and RSICB128 datasets manually from Kaggle and place them in '/datasets/' director. You can format them manually to follow the dataset directory structure listed below and use them for evaluation or u can use the _run_dataset_formatting.py_ script.
+
+
+```bash
+# <dataset_name> can take the following values: MLRSNet, RSICB128
+python3 run_dataset_formatting.py --dataset_name <dataset_name> 
+```
+
+* Download links: [RSICB128](https://www.kaggle.com/datasets/noamaanabdulazeem/myfile) | [MLRSNet](https://www.kaggle.com/datasets/fes2255/mlrsnet) --- Note: On the Kaggle website, click on the downlaod **Arrow** in the center of the page instead of the **Download** button to preserve the data strcutre needed to use the run_dataset_formatting.py_ script (check figure bellow).
+
+
+<p align="center">
+  <img src="github_data/arrow.png" alt="arrow" style="width: 50%; max-width: 500px; height: auto;">
+  <br>
+</p>
+
 
 <br>
 
@@ -108,7 +118,7 @@ $datasets/
 <ins>Notes:</ins>
 
 * The class_changes.txt file inserts a space between combined class names. For example, the class name "railwaystation" becomes "railway station." This change is applied consistently across all datasets.
-* The WHURS19 dataset is already uploaded to the repository for reference
+* The WHURS19 dataset is already uploaded to the repository for reference.
 
 
 
