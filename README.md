@@ -82,7 +82,7 @@ You are ready to start! 🎉
 python3 run_dataset_download.py --dataset_name <dataset_name> 
 ```
   
-* You must download the MLRSNet and RSICB128 datasets manually from Kaggle and place them in /datasets/ directory. Download links: [RSICB128](https://www.kaggle.com/datasets/phananhvu/rsi-cb-128-remote-sensing-aerial-satellite-image) | [MLRSNet](https://www.kaggle.com/datasets/fes2255/mlrsnet). You can format them manually to follow the dataset directory structure listed below and use them for evaluation or u can use the _run_dataset_formatting.py_ script.
+* You must download the MLRSNet and RSICB128 datasets manually from Kaggle and place them in /datasets/ directory. Download links: [RSICB128](https://www.kaggle.com/datasets/noamaanabdulazeem/myfile) | [MLRSNet](https://www.kaggle.com/datasets/fes2255/mlrsnet). You can format them manually to follow the dataset directory structure listed below and use them for evaluation or u can use the _run_dataset_formatting.py_ script.
 
 ```bash
 # <dataset_name> can take the following values: MLRSNet, RSICB128
