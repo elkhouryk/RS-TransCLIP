@@ -94,7 +94,7 @@ $datasets/
 ```
 
   
-* You must download the MLRSNet and RSICB128 datasets manually from Kaggle and place them in '/datasets/' director. You can format them manually to follow the dataset directory structure listed above and use them for evaluation **OR** you can use the _run_dataset_formatting.py_ script.
+* You must download the MLRSNet and RSICB128 datasets manually from Kaggle and place them in '/datasets/' directory. You can format them manually to follow the dataset directory structure listed above and use them for evaluation **OR** you can use the _run_dataset_formatting.py_ script by placing the .zip files from Kaggle in the '/datasets/' directory.
 
 
 ```bash
