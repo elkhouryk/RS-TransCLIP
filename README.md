@@ -257,6 +257,5 @@ You can also contact us by [Email](mailto:karim.elkhoury@uclouvain.be).
 ## Coming Soon ⏳
 
 - arXiv preprint
-- Automatically downloadable and formatted MLRSNet and RSICB128 datasets
 - Text-prompt variability for Zero-Shot Scene Classification
 - Few-shot RS-TransCLIP for human-in-the-loop scenarios
