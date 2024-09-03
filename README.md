@@ -260,5 +260,5 @@ You can also contact us by [Email](mailto:karim.elkhoury@uclouvain.be).
 ## Coming Soon ⏳
 
 - arXiv preprint
-- Text-prompt variability for Zero-Shot Scene Classification
+- Text-prompt variability study for Zero-Shot Scene Classification
 - Few-shot RS-TransCLIP for human-in-the-loop scenarios
