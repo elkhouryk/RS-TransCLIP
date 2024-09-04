@@ -1,7 +1,6 @@
 # RS-TransCLIP 🌍🛰️
 Welcome to the GitHub repository for [*Enhancing Remote Sensing Vision-Language Models for Zero-Shot Scene Classification*](https://arxiv.org/abs/2409.00698).
 
-$\color{#f00}{\textsf{LINK TO BE MODIFIED}}$
 
 
 <ins>Authors:</ins>
@@ -225,7 +224,7 @@ python3 run_TransCLIP.py
 ## Citations 📚
 
 
-Support our work by citing our paper if you use this repository: $\color{#f00}{\textsf{TO BE MODIFIED}}$
+Support our work by citing our paper if you use this repository:
 
 ```
 @article{elkhoury2024enhancing,
