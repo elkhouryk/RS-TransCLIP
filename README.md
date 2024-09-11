@@ -5,7 +5,7 @@ Welcome to the GitHub repository for [*Enhancing Remote Sensing Vision-Language 
 
 <ins>Authors:</ins>
 
-[K. El Khoury*](https://scholar.google.be/citations?user=UU_keGAAAAAJ&hl=fr), [M. Zanella*](https://scholar.google.com/citations?user=FIoE9YIAAAAJ&hl=fr&oi=ao), [B. Gérin*](https://scholar.google.com/citations?user=MgT_oMAAAAAJ&hl=fr&oi=ao), [T. Godelaine*](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Tiffanie+Godelaine&btnG=), [B. Macq](https://scholar.google.be/citations?user=H9pGN70AAAAJ&hl=fr), [S. Mahmoudi](https://scholar.google.com/citations?user=K2BAx8sAAAAJ&hl=en), [C. De Vleeschouwer](https://scholar.google.ca/citations?user=xb3Zc3cAAAAJ&hl=en), [I. Ben Ayed](https://scholar.google.com/citations?user=29vyUccAAAAJ&hl=fr&oi=ao)
+[K. El Khoury*](https://scholar.google.be/citations?user=UU_keGAAAAAJ&hl=fr), [M. Zanella*](https://scholar.google.com/citations?user=FIoE9YIAAAAJ&hl=fr&oi=ao), [B. Gérin*](https://scholar.google.com/citations?user=MgT_oMAAAAAJ&hl=fr&oi=ao), [T. Godelaine*](https://scholar.google.com/citations?user=xKcPd0oAAAAJ&hl=en&oi=ao), [B. Macq](https://scholar.google.be/citations?user=H9pGN70AAAAJ&hl=fr), [S. Mahmoudi](https://scholar.google.com/citations?user=K2BAx8sAAAAJ&hl=en), [C. De Vleeschouwer](https://scholar.google.ca/citations?user=xb3Zc3cAAAAJ&hl=en), [I. Ben Ayed](https://scholar.google.com/citations?user=29vyUccAAAAJ&hl=fr&oi=ao)
 
 *Denotes equal contribution
 
