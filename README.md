@@ -229,7 +229,6 @@ python3 run_TransCLIP.py
 
 
 Support our work by citing our paper if you use this repository:
-
 ```
 @article{elkhoury2024enhancing,
 title={Enhancing Remote Sensing Vision-Language Models for Zero-Shot Scene Classification},
