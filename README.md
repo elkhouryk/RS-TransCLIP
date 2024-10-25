@@ -255,7 +255,14 @@ For more details on transductive inference in VLMs, visit the TransCLIP comprehe
 ## Contributing 🤝
 
 Feel free to open an issue or pull request if you have any questions or suggestions.
-You can also contact us by [Email](mailto:karim.elkhoury@uclouvain.be).
+
+You can also contact us by Email:
+```
+karim.elkhoury@uclouvain.be
+maxime.zanella@uclouvain.be
+benoit.gerin@uclouvain.be
+tiffanie.godelaine@uclouvain.be
+```
 
 ---
 <br><br>
