@@ -25,6 +25,29 @@ We introduce RS-TransCLIP, a transductive approach inspired from [TransCLIP](htt
 
 
 
+## Benchmarks 📊
+
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-remote-sensing-vision-language/transductive-zero-shot-classification-on-aid)](https://paperswithcode.com/sota/transductive-zero-shot-classification-on-aid?p=enhancing-remote-sensing-vision-language)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-remote-sensing-vision-language/transductive-zero-shot-classification-on-1)](https://paperswithcode.com/sota/transductive-zero-shot-classification-on-1?p=enhancing-remote-sensing-vision-language)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-remote-sensing-vision-language/transductive-zero-shot-classification-on-11)](https://paperswithcode.com/sota/transductive-zero-shot-classification-on-11?p=enhancing-remote-sensing-vision-language)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-remote-sensing-vision-language/transductive-zero-shot-classification-on-12)](https://paperswithcode.com/sota/transductive-zero-shot-classification-on-12?p=enhancing-remote-sensing-vision-language)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-remote-sensing-vision-language/transductive-zero-shot-classification-on-13)](https://paperswithcode.com/sota/transductive-zero-shot-classification-on-13?p=enhancing-remote-sensing-vision-language)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-remote-sensing-vision-language/transductive-zero-shot-classification-on-14)](https://paperswithcode.com/sota/transductive-zero-shot-classification-on-14?p=enhancing-remote-sensing-vision-language)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-remote-sensing-vision-language/transductive-zero-shot-classification-on-10)](https://paperswithcode.com/sota/transductive-zero-shot-classification-on-10?p=enhancing-remote-sensing-vision-language)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-remote-sensing-vision-language/transductive-zero-shot-classification-on-15)](https://paperswithcode.com/sota/transductive-zero-shot-classification-on-15?p=enhancing-remote-sensing-vision-language)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-remote-sensing-vision-language/transductive-zero-shot-classification-on-16)](https://paperswithcode.com/sota/transductive-zero-shot-classification-on-16?p=enhancing-remote-sensing-vision-language)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/enhancing-remote-sensing-vision-language/transductive-zero-shot-classification-on-17)](https://paperswithcode.com/sota/transductive-zero-shot-classification-on-17?p=enhancing-remote-sensing-vision-language)
+
 <br><br>
 ## Contents 📑
 
