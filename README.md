@@ -3,7 +3,7 @@
 <a href="https://arxiv.org/abs/2409.00698" style='vertical-align:middle; display:inline;'><img
 							src="https://img.shields.io/badge/cs.CV-arXiv%3A2409.00698-B31B1B.svg" class="plain" style="height:25px;" /></a>
 
-Welcome to the GitHub repository for [*Enhancing Remote Sensing Vision-Language Models for Zero-Shot Scene Classification*](https://arxiv.org/abs/2409.00698).
+Welcome to the GitHub repository for [*Enhancing Remote Sensing Vision-Language Models for Zero-Shot Scene Classification*](https://arxiv.org/abs/2409.00698) ***[ICASSP 2025]***.
 
 
  
