@@ -14,7 +14,7 @@ Welcome to the GitHub repository for [*Enhancing Remote Sensing Vision-Language 
 *Denotes equal contribution
 
 ## Updates
-* **Paper accepted to ICASSP 2025.** [December 20, 2024]
+* **Paper accepted to ICASSP 2025. [December 20, 2024]**
 * Paper uploaded on arXiv. [September 1, 2024]
 
 <br>
