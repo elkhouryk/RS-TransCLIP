@@ -13,6 +13,10 @@ Welcome to the GitHub repository for [*Enhancing Remote Sensing Vision-Language 
 
 *Denotes equal contribution
 
+## Updates
+* Paper accepted to ICASSP 2025. [December 20, 2024]
+* Paper uploaded on arXiv. [September 1, 2024]
+
 <br>
 
 We introduce RS-TransCLIP, a transductive approach inspired from [TransCLIP](https://github.com/MaxZanella/transduction-for-vlms), that enhances Remote Sensing Vison-Language Models <ins>without requiring any labels</ins>, only incurring a negligible computational cost to the overall inference time.
