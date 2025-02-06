@@ -107,14 +107,14 @@ You are ready to start! 🎉
 <br><br>
 ## Datasets 🗂️
 
-10 Remote Sensing Scene Classification datasets are already available for evaluation: 
+9 Remote Sensing Scene Classification datasets are already available for evaluation: 
 
 * The WHURS19 dataset is already uploaded to the repository for reference and can be used directly.
   
-* The following 7 datasets (AID, EuroSAT, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB256) will be automatically downloaded and formatted from Hugging Face using the _run_dataset_download.py_ script.
+* The following 6 datasets (EuroSAT, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB256) will be automatically downloaded and formatted from Hugging Face using the _run_dataset_download.py_ script.
 
 ```bash
-# <dataset_name> can take the following values: AID, EuroSAT, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB256
+# <dataset_name> can take the following values: EuroSAT, OPTIMAL31, PatternNet, RESISC45, RSC11, RSICB256
 python3 run_dataset_download.py --dataset_name <dataset_name> 
 ```
 
@@ -155,6 +155,7 @@ python3 run_dataset_formatting.py --dataset_name <dataset_name>
 
 * The class_changes.txt file inserts a space between combined class names. For example, the class name "railwaystation" becomes "railway station." This change is applied consistently across all datasets.
 * The WHURS19 dataset is already uploaded to the repository for reference.
+* AID dataset is being set up
 
 
 
