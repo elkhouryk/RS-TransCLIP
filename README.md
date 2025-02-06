@@ -155,7 +155,7 @@ python3 run_dataset_formatting.py --dataset_name <dataset_name>
 
 * The class_changes.txt file inserts a space between combined class names. For example, the class name "railwaystation" becomes "railway station." This change is applied consistently across all datasets.
 * The WHURS19 dataset is already uploaded to the repository for reference.
-* AID dataset is being set up
+* AID dataset will be back up soon
 
 
 
