@@ -68,56 +68,7 @@ def create_and_sort_txt(classes, txt_dir):
 #%%
 def process_data(dataset_name):
     datasets_dir = './datasets'
-    if dataset_name == 'AID':
-        load_path = "jonathan-roberts1/Million-AID"
-        classes = {
-            '0': 'dam',
-            '1': 'religious land',
-            '2': 'rock land',
-            '3': 'sparse shrub land',
-            '4': 'arable land',
-            '5': 'factory area',
-            '6': 'detached house',
-            '7': 'desert',
-            '8': 'lake',
-            '9': 'power station',
-            '10': 'beach',
-            '11': 'ice land',
-            '12': 'bare land',
-            '13': 'island',
-            '14': 'woodland',
-            '15': 'mobile home park',
-            '16': 'railway area',
-            '17': 'river',
-            '18': 'grassland',
-            '19': 'apartment',
-            '20': 'special land',
-            '21': 'port area',
-            '22': 'commercial area',
-            '23': 'highway area',
-            '24': 'mining area',
-            '25': 'sports land',
-            '26': 'airport area',
-            '27': 'leisure land'
-            }
-        output_dir_img = os.path.join(datasets_dir, dataset_name, 'images')
-        if os.path.exists(output_dir_img):
-            print(f"{dataset_name} dataset already downloaded")
-        else: 
-            label_counters = {}
-            split = 'train'
-            label_key = 'label_2'
-            
-            print(f"Downloading {dataset_name} dataset")
-            label_counters = save_images_from_dataloader(load_path, output_dir_img, classes, label_counters, split, label_key)
-            print(f"{dataset_name} dataset downloaded")
-            
-            output_dir_txt = os.path.join(datasets_dir, dataset_name)
-            
-            create_and_sort_txt(classes, output_dir_txt)
-            print("txt file created")
-        
-    elif dataset_name == 'EuroSAT':
+    if dataset_name == 'EuroSAT':
         load_path = "blanchon/EuroSAT_RGB"
         classes = {
             '0': 'annual crop',
