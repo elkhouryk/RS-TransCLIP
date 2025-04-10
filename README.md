@@ -261,20 +261,24 @@ python3 run_TransCLIP.py
 
 Support our work by citing our paper if you use this repository:
 ```
-@article{elkhoury2024enhancing,
-title={Enhancing Remote Sensing Vision-Language Models for Zero-Shot Scene Classification},
-author={Karim El Khoury and Maxime Zanella and Beno{\^\i}t G{\'e}rin and Tiffanie Godelaine and Beno{\^\i}t Macq and Sa{\"i}d Mahmoudi and Christophe De Vleeschouwer and Ismail Ben Ayed},
-journal={arXiv preprint arXiv:2409.00698},
-year={2024}
+@inproceedings{el2025enhancing,
+  title={Enhancing remote sensing vision-language models for zero-shot scene classification},
+  author={El Khoury, Karim and Zanella, Maxime and G{\'e}rin, Beno{\^\i}t and Godelaine, Tiffanie and Macq, Beno{\^\i}t and Mahmoudi, Sa{\"\i}d and De Vleeschouwer, Christophe and Ben Ayed, Ismail},
+  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
 }
 ```
 
 Please also consider citing the original TransCLIP paper:
 ```
 @article{zanella2024boosting,
-  title={Boosting Vision-Language Models with Transduction},
-  author={Zanella, Maxime and G{\'e}rin, Beno{\^\i}t and Ayed, Ismail Ben},
-  journal={arXiv preprint arXiv:2406.01837},
+  title={Boosting vision-language models with transduction},
+  author={Zanella, Maxime and G{\'e}rin, Beno{\^\i}t and Ben Ayed, Ismail},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={62223--62256},
   year={2024}
 }
 ```
