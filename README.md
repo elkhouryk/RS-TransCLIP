@@ -151,11 +151,11 @@ python3 run_dataset_formatting.py --dataset_name <dataset_name>
 
 
 
-<ins>Notes:</ins>
 
-* The class_changes.txt file inserts a space between combined class names. For example, the class name "railwaystation" becomes "railway station." This change is applied consistently across all datasets.
-* The WHURS19 dataset is already uploaded to the repository for reference.
-* AID dataset will be back up soon
+><ins>Notes:</ins>
+>* The class_changes.txt file inserts a space between combined class names. For example, the class name "railwaystation" becomes "railway station." This change is applied consistently across all datasets.
+>* The WHURS19 dataset is already uploaded to the repository for reference.
+>* AID dataset will be back up soon
 
 
 
@@ -204,12 +204,11 @@ $results/
       └── texts_<prompt106>.pt
 ```
 
-<ins>Notes:</ins>
-
-* Text embeddings will generate 106 individual text embeddings for each VLM/dataset combination, the exhaustive list of all text prompts can be found in run_featuregeneration.py.
-* When generating Image embeddings, the run_featuregeneration.py script will also generate the ground truth labels and store them in "classes.pt". These labels will be used for evaluation.
-* Please refer to run_featuregeneration.py to control all the respective arguments.
-* The embeddings for the WHURS19 dataset are already uploaded to the repository for reference.
+><ins>Notes:</ins>
+>* Text embeddings will generate 106 individual text embeddings for each VLM/dataset combination, the exhaustive list of all text prompts can be found in run_featuregeneration.py.
+>* When generating Image embeddings, the run_featuregeneration.py script will also generate the ground truth labels and store them in "classes.pt". These labels will be used for evaluation.
+>* Please refer to run_featuregeneration.py to control all the respective arguments.
+>* The embeddings for the WHURS19 dataset are already uploaded to the repository for reference.
 
 
 ## 
@@ -237,12 +236,11 @@ To run Transductive zero-shot classification using RS-TransCLIP:
 python3 run_TransCLIP.py
 ```
 
-<ins>Notes:</ins>
-
-* The run_TransCLIP.py script will use the Image embeddings "images.pt", the Average Text embedding "texts_averageprompt.pt" and the class ground truth labels "classes.pt" to run Transductive zero-shot classification using RS-TransCLIP.
-* The run_TransCLIP.py script will also generate the Inductive zero-shot classification for performance comparison.
-* Both Inductive and Transductive results will be stored in "results/results_averageprompt.csv".
-* The results for the WHURS19 dataset are already uploaded to the repository for reference.
+><ins>Notes:</ins>
+>* The run_TransCLIP.py script will use the Image embeddings "images.pt", the Average Text embedding "texts_averageprompt.pt" and the class ground truth labels "classes.pt" to run Transductive zero-shot classification using RS-TransCLIP.
+>* The run_TransCLIP.py script will also generate the Inductive zero-shot classification for performance comparison.
+>* Both Inductive and Transductive results will be stored in "results/results_averageprompt.csv".
+>* The results for the WHURS19 dataset are already uploaded to the repository for reference.
 
 
 
