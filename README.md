@@ -220,10 +220,9 @@ To generate the Average Text embedding each dataset/VLM/architecture trio:
 python3 run_averageprompt.py
 ```
 
-<ins>Notes:</ins>
-
-* The run_averageprompt.py script will average out all embeddings with the following name structure "texts_*.pt" for each dataset/VLM/architecture trio and create a file called "texts_averageprompt.pt".
-* The Average Text embeddings for the WHURS19 dataset are already uploaded to the repository for reference.
+><ins>Notes:</ins>
+>* The run_averageprompt.py script will average out all embeddings with the following name structure "texts_*.pt" for each dataset/VLM/architecture trio and create a file called "texts_averageprompt.pt".
+>* The Average Text embeddings for the WHURS19 dataset are already uploaded to the repository for reference.
 
 
 ## 
@@ -242,6 +241,7 @@ python3 run_TransCLIP.py
 >* Both Inductive and Transductive results will be stored in "results/results_averageprompt.csv".
 >* The results for the WHURS19 dataset are already uploaded to the repository for reference.
 
+<br><br>
 
 
 <p align="center">
