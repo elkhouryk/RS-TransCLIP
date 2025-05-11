@@ -137,7 +137,7 @@ def process_data(dataset_name):
         os.remove(zip_file_path)
         print(f'Extracted to {extract_to_path}')
         
-        dataset_dir_init = os.path.join(datasets_dir, 'MLRSNet_Dataset/images')
+        dataset_dir_init = os.path.join(datasets_dir, 'MLRSNet_Dataset/Images')
         dataset_dir = os.path.join(datasets_dir, dataset_name, 'images')
         
         if os.path.exists(dataset_dir):
