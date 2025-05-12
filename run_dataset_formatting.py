@@ -196,7 +196,7 @@ def process_data(dataset_name):
                     '36': 'sparse residential area',
                     '37': 'stadium',
                     '38': 'storage tank',
-                    '39': 'swimming pool',
+                    '39': 'swimmimg pool',
                     '40': 'tennis court',
                     '41': 'terrace',
                     '42': 'transmission tower',
