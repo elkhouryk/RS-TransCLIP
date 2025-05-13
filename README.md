@@ -107,7 +107,7 @@ You are ready to start! 🎉
 <br><br>
 ## Datasets 🗂️
 
-9 Remote Sensing Scene Classification datasets are already available for evaluation: 
+10 Remote Sensing Scene Classification datasets are already available for evaluation: 
 
 * The WHURS19 dataset is already uploaded to the repository for reference and can be used directly.
   
