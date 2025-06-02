@@ -71,16 +71,16 @@ def process_data(dataset_name):
     if dataset_name == 'EuroSAT':
         load_path = "blanchon/EuroSAT_RGB"
         classes = {
-            '0': 'annual crop',
+            '0': 'annual crop land',
             '1': 'forest',
             '2': 'herbaceous vegetation',
-            '3': 'highway',
+            '3': 'highway or road',
             '4': 'industrial buildings',
-            '5': 'pasture',
-            '6': 'permanent crop',
+            '5': 'pasture land',
+            '6': 'permanent crop land',
             '7': 'residential buildings',
             '8': 'river',
-            '9': 'sealake'
+            '9': 'sea or lake'
             }
         output_dir_img = os.path.join(datasets_dir, dataset_name, 'images')
         if os.path.exists(output_dir_img):
@@ -372,4 +372,3 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     process_data(args.dataset_name)
-

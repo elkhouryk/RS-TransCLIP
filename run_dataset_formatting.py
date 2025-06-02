@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#%
+#%%
 import argparse
 import os
 from datasets import load_dataset
@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader
 from torchvision import transforms
 import zipfile
 
-#%
+#%%
 def create_and_sort_txt(classes, txt_dir):
     classes_txt_path = os.path.join(txt_dir, 'classes.txt')
     classes_modified_txt_path = os.path.join(txt_dir, 'class_changes.txt')
@@ -179,7 +179,7 @@ def process_data(dataset_name):
                     '19': 'industrial area',
                     '20': 'intersection',
                     '21': 'island',
-                    '22': 'lake',
+                    '22': 'sea or lake',
                     '23': 'mobile home park',
                     '24': 'meadow',
                     '25': 'mountain',
@@ -289,7 +289,7 @@ def process_data(dataset_name):
                 '33':'river protection forest',
                 '34':'sandbeach',
                 '35':'sapling',
-                '36':'sea',
+                '36':'sea or lake',
                 '37':'shrubwood',
                 '38':'snow mountain',
                 '39':'sparse forest',
