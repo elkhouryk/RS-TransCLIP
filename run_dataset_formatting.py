@@ -313,7 +313,7 @@ def process_data(dataset_name):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Parser for the specified arguments')
-    parser.add_argument('--dataset_name', type=str, choices=['AID','MLRSNet', 'RSICB128'], help='Name of the dataset')
+    parser.add_argument('--dataset_name', type=str, choices=['AID','MLRSNet','RSICB128'], help='Name of the dataset')
     args = parser.parse_args()
     
     process_data(args.dataset_name)
