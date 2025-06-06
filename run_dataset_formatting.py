@@ -179,7 +179,7 @@ def process_data(dataset_name):
                     '19': 'industrial area',
                     '20': 'intersection',
                     '21': 'island',
-                    '22': 'sea or lake',
+                    '22': 'lake',
                     '23': 'mobile home park',
                     '24': 'meadow',
                     '25': 'mountain',
