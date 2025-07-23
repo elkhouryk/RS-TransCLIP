@@ -272,9 +272,4 @@ benoit.gerin@uclouvain.be
 tiffanie.godelaine@uclouvain.be
 ```
 
----
-<br><br>
-## Coming Soon ⏳
 
-- Text-prompt variability study for Zero-Shot Scene Classification
-- Few-shot RS-TransCLIP implementation for human-in-the-loop scenarios
